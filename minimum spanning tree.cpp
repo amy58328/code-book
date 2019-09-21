@@ -10,12 +10,12 @@ int num[N+5];
 
 using namespace std;
 
-struct node
+typedef  struct 
 {
 	int x;
 	int y;
 	int w;
-};
+}node;
 
 void init()
 {
@@ -52,7 +52,7 @@ void uni(int a,int b)//combine
 int main()
 {
 	#ifdef DEBUG
-	freopen("input.in","r",stdins);
+	freopen("input.in","r",stdin);
 	freopen("output.out","w",stdout);
 	#endif
 
